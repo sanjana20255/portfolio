@@ -75,7 +75,6 @@ nav a:hover {
   color: var(--primary);
   background: linear-gradient(135deg, var(--accent), var(--secondary));
 }
-
 .hero {
   display: flex;
   flex-direction: row;
