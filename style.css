@@ -274,6 +274,28 @@ footer {
   padding: 1rem;
   background-color: var(--secondary);
 }
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.skill-item {
+  background: linear-gradient(135deg, var(--accent), var(--secondary));
+  color: var(--text);
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.08);
+  margin-bottom: 0.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.skill-item:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 4px 16px rgba(59, 130, 246, 0.15);
+}
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
